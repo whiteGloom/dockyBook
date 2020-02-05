@@ -1,0 +1,28 @@
+{
+  "name": "dockybook",
+  "version": "0.0.1",
+  "description": "Documentation creation service",
+  "main": "./prod/index.js",
+  "scripts": {
+    "build": "babel src --out-dir prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whiteGloom/dockyBook.git"
+  },
+  "keywords": [
+    "service",
+    "documentation"
+  ],
+  "author": "whiteGloom <karabin.m@yandex.ru> (https://github.com/whiteGloom)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whiteGloom/dockyBook/issues"
+  },
+  "homepage": "https://github.com/whiteGloom/dockyBook#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4"
+  }
+}
